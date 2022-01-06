@@ -19,7 +19,7 @@ blur_value = 7
 edges = edge_mask(img, line_size, blur_value)
 # color quantization
 # k value determines the number of colours in the image
-total_color = 7
+total_color = 9
 k = total_color
 # Transer the image
 data = np.float32(img).reshape(-1,3)
